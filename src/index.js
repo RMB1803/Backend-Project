@@ -11,7 +11,7 @@ connectDB()
     app.on("ERROR", (error) => {
         console.log("ERROR: ", error);
     })
-    
+
     app.listen(process.env.PORT || 8000, () => {
         console.log(`Server is running at Port: ${process.env.PORT}`);
     })
@@ -19,30 +19,6 @@ connectDB()
 .catch((error) => {
     console.log("MONGO DB connection failed!!: ", error);
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
